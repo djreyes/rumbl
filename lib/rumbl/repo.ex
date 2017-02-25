@@ -5,9 +5,9 @@ defmodule Rumbl.Repo do
   """
   def all(Rumbl.User) do
     [
-      %Rumbl.User{id: '1', name: 'Jose', username: 'josevalim', password: 'password'},
-      %Rumbl.User{id: '2', name: 'Bruce', username: 'redrapids', password: 'password'},
-      %Rumbl.User{id: '3', name: 'Chris', username: 'chrismccord', password: 'password'}
+      %Rumbl.User{id: "1", name: "Jose", username: "josevalim", password: "password"},
+      %Rumbl.User{id: "2", name: "Bruce", username: "redrapids", password: "password"},
+      %Rumbl.User{id: "3", name: "Chris", username: "chrismccord", password: "password"}
     ]
   end
 
