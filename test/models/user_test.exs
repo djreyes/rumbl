@@ -2,7 +2,7 @@ defmodule Rumbl.UserTest do
   use Rumbl.ModelCase, async: true
   alias Rumbl.User
 
-  @valid_attrs %{name: "A User", username: "eva", password: "secret"}
+  @valid_attrs %{name: "A User", username: "eva"}
   @invalid_attrs %{}
 
   test "changeset with valid attributes" do
